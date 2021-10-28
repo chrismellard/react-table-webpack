@@ -1,30 +1,9 @@
 {
-  "name": "manualreact",
+  "name": "@creative-order/root",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Chris Mellard",
+  "author": "Chris Mellard <chris.mellard@icloud.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "webpack serve"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/node": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "@babel/preset-react": "^7.14.5",
-    "@babel/preset-typescript": "^7.15.0",
-    "@types/react": "^17.0.33",
-    "@types/react-dom": "^17.0.10",
-    "babel-loader": "^8.2.3",
-    "html-webpack-plugin": "^5.5.0",
-    "path": "^0.12.7",
-    "webpack": "^5.60.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.4.0"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "typescript": "^4.4.4"
-  }
+  "private": true,
+  "workspaces": ["packages/*"]
 }
