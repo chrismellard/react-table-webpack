@@ -2419,7 +2419,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.33"],
             ["@types/react-dom", "npm:17.0.10"],
             ["react", "npm:17.0.2"],
-            ["react-dom", "virtual:8bf34103d4d4a53e05eeba4caa31b302da0228c559e891e9bf067c458f36411401dab6c81be5813b1670a6eb53366f53fbd8a7089bc2e9f311f80098a217119a#npm:17.0.2"]
+            ["react-dom", "virtual:8bf34103d4d4a53e05eeba4caa31b302da0228c559e891e9bf067c458f36411401dab6c81be5813b1670a6eb53366f53fbd8a7089bc2e9f311f80098a217119a#npm:17.0.2"],
+            ["react-table", "virtual:8bf34103d4d4a53e05eeba4caa31b302da0228c559e891e9bf067c458f36411401dab6c81be5813b1670a6eb53366f53fbd8a7089bc2e9f311f80098a217119a#npm:7.7.0"]
           ],
           "linkType": "SOFT",
         }]
@@ -6649,6 +6650,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-assign", "npm:4.1.1"],
             ["react", "npm:17.0.2"],
             ["scheduler", "npm:0.20.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react-table", [
+        ["npm:7.7.0", {
+          "packageLocation": "./.yarn/cache/react-table-npm-7.7.0-95e9357cd2-a679edecc7.zip/node_modules/react-table/",
+          "packageDependencies": [
+            ["react-table", "npm:7.7.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:8bf34103d4d4a53e05eeba4caa31b302da0228c559e891e9bf067c458f36411401dab6c81be5813b1670a6eb53366f53fbd8a7089bc2e9f311f80098a217119a#npm:7.7.0", {
+          "packageLocation": "./.yarn/__virtual__/react-table-virtual-9f480116fd/0/cache/react-table-npm-7.7.0-95e9357cd2-a679edecc7.zip/node_modules/react-table/",
+          "packageDependencies": [
+            ["react-table", "virtual:8bf34103d4d4a53e05eeba4caa31b302da0228c559e891e9bf067c458f36411401dab6c81be5813b1670a6eb53366f53fbd8a7089bc2e9f311f80098a217119a#npm:7.7.0"],
+            ["@types/react", "npm:17.0.33"],
+            ["react", "npm:17.0.2"]
           ],
           "packagePeers": [
             "@types/react",
