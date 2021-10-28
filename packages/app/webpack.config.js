@@ -13,7 +13,14 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: ["babel-loader"],
+        use: [
+          {
+            loader: require.resolve('babel-loader'),
+            options: {
+              rootMode: 'upward'
+            }
+          }
+        ]
       }
     ],
   },

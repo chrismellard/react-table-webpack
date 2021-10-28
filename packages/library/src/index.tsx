@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Potato = () => {
+export const Potato = () => {
     return <div>hello world</div>
 }
